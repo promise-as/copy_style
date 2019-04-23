@@ -57,14 +57,4 @@ $(function () {
           .siblings().removeClass("daniu-predict__content").css("display", "none");
     })
   })
-
-  var footerWidth = $(".jp-footer-wrap").width();
-
-  var footerMargin = window.Number(35);
-
-  var time = 1;
-  $(".jp-footer-next").click(function () {
-    console.log($("#jp-list").css("left", -(footerWidth + footerMargin) * time));
-    time++
-  })
 })

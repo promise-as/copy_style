@@ -1,0 +1,298 @@
+
+.product-info-box {
+    background: #fff
+}
+
+.product-info-box .pr-content-tab, .product-recommend-content .pr-content-tab {
+    font-size: 0;
+    border-bottom: 1px solid #dfe3e5
+}
+
+.product-info-box .pr-content-tab a, .product-recommend-content .pr-content-tab a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: relative;
+    width: 249px;
+    *width: 248px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #686868;
+    border: 1px solid #dfe3e5;
+    background: #f7f9fc;
+    margin-left: -1px;
+    cursor: pointer;
+    margin-bottom: -1px
+}
+
+.product-info-box .pr-content-tab a:hover, .product-recommend-content .pr-content-tab a:hover {
+    text-decoration: none;
+    background: #fafcff
+}
+
+.product-info-box .pr-content-tab a:first-child, .product-recommend-content .pr-content-tab a:first-child {
+    *margin-left: 0
+}
+
+.product-info-box .pr-content-tab .pr-tab-selected, .product-recommend-content .pr-content-tab .pr-tab-selected {
+    background: #fff;
+    cursor: default
+}
+
+.product-info-box .pr-content-tab .pr-tab-selected em, .product-recommend-content .pr-content-tab .pr-tab-selected em {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #fa7267
+}
+
+.product-info-box .pr-content-tab .pr-tab-selected:first-child em, .product-recommend-content .pr-content-tab .pr-tab-selected:first-child em {
+    border-left: 1px solid #fff
+}
+
+.product-info-box .pr-content-tab .last-tab-a em, .product-recommend-content .pr-content-tab .last-tab-a em {
+    border-right: 1px solid #fff
+}
+
+.product-info-box .pr-content-tab-third a, .product-recommend-content .pr-content-tab-third a {
+    width: 332px
+}
+
+.product-info-box .pr-content-tab-one a, .product-recommend-content .pr-content-tab-one a {
+    width: 100%;
+    border-right: none
+}
+
+.product-info-box .pr-content-tab-warp, .product-recommend-content .pr-content-tab-warp {
+    height: 52px
+}
+
+.product-info-box .pr-content-tab-warp .pr-content-tab-fixed, .product-recommend-content .pr-content-tab-warp .pr-content-tab-fixed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    z-index: 999
+}
+
+.product-info-box table.pr-content-tab {
+    width: 100%;
+    table-layout: fixed
+}
+
+.product-info-box table.pr-content-tab a {
+    width: 100%
+}
+
+.product-info-box {
+    width: 1000px;
+    margin: 26px auto 0;
+    border-bottom: 1px solid #dce0e3;
+    font-size: 14px
+}
+
+.product-info-box .pr-content-tab .pr-tab-selected em {
+    border-top: 2px solid #11BAB3
+}
+
+.product-info-box .product-info-main {
+    padding: 35px 30px 30px
+}
+
+.product-info-box .product-info-main .product-info-ad-box {
+    text-align: center;
+    overflow: hidden
+}
+
+.product-info-box .product-info-main .product-info-ad-box img {
+    max-width: 100%
+}
+
+.product-info-box .product-info-path {
+    margin-top: 24px
+}
+
+.product-info-box .product-info-path .pi-path-title {
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    color: #686868
+}
+
+.product-info-box .product-info-path .pi-path-title em {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 7px;
+    height: 17px;
+    background: #11BAB3;
+    margin-right: 18px;
+    vertical-align: middle
+}
+
+.product-info-box .product-info-path .pi-path-title .addon-botton {
+    float: right;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    color: #11BAB3;
+    border: 1px solid #11BAB3;
+    padding: 0 8px;
+    margin-top: 10px;
+    border-radius: 5px
+}
+
+.product-info-box .p-course-para table {
+    font-size: 14px;
+    margin-top: 15px;
+    width: 100%
+}
+
+.product-info-box .p-course-para td {
+    border: 1px dotted #cacdcf;
+    border-width: 1px 0;
+    font-size: 14px;
+    padding: 15px 20px;
+    width: 50%
+}
+
+.product-info-box .course-evaluate-box, .product-info-box .course-intro-box {
+    margin-top: 30px
+}
+
+.product-info-box .course-evaluate-box img, .product-info-box .course-intro-box img {
+    max-width: 100% !important;
+    vertical-align: top
+}
+
+.product-info-box .j-load-lazy-img {
+    max-width: 100% !important
+}
+
+.product-info-box .p-course-outline .outline-outer-table {
+    width: 100%;
+    margin-top: 22px;
+    text-align: center
+}
+
+.product-info-box .p-course-outline .outline-outer-table thead th {
+    color: #fff;
+    text-align: left;
+    padding: 10px 0;
+    background: #11BAB3
+}
+
+.product-info-box .p-course-outline .outline-outer-table thead th > p {
+    padding: 0 22px;
+    text-align: center
+}
+
+.product-info-box .p-course-outline .outline-outer-table > tbody {
+    color: #686868
+}
+
+.product-info-box .p-course-outline .outline-outer-table > tbody > tr, .product-info-box .p-course-outline .outline-outer-table > tbody > tr > td {
+    border: 1px solid #dcdfe0
+}
+
+.product-info-box .p-course-outline .outline-outer-table > tbody > tr:nth-child(2n) {
+    background: #f1f5f8
+}
+
+.product-info-box .p-course-outline .outline-outer-table > tbody .outline-mission-title div {
+    padding: 20px 10px;
+    width: 168px;
+    font-size: 20px;
+    color: #11BAB3;
+    text-align: center
+}
+
+.product-info-box .p-course-outline .outline-outer-table > tbody .outline-mission-title div.step {
+    color: #686868
+}
+
+.product-info-box .p-course-outline .outline-outer-table > tbody .ouline-mission-content div {
+    padding: 20px 22px;
+    text-align: left
+}
+
+.product-info-box .p-course-outline .outline-outer-table .outline-cols-td {
+    padding: 0 10px;
+    vertical-align: top
+}
+
+.product-info-box .p-course-outline .outline-outer-table td.td1 p, .product-info-box .p-course-outline .outline-outer-table td.td2 p, .product-info-box .p-course-outline .outline-outer-table td.td3 p, .product-info-box .p-course-outline .outline-outer-table td.td4 p {
+    padding: 0 12px
+}
+
+.product-info-box .p-course-outline .outline-outer-table td.td1, .product-info-box .p-course-outline .outline-outer-table td.td4 {
+    text-align: left
+}
+
+.product-info-box .p-course-outline .outline-outer-table td.td2, .product-info-box .p-course-outline .outline-outer-table td.td3, .product-info-box .p-course-outline .outline-outer-table td.td4 {
+    text-align: center
+}
+
+.product-info-box .p-course-outline .outline-outer-table .td0 {
+    width: 189px
+}
+
+.product-info-box .p-course-outline .outline-outer-table .td1 {
+    width: 328px
+}
+
+.product-info-box .p-course-outline .outline-outer-table .td2 {
+    width: 90px
+}
+
+.product-info-box .p-course-outline .outline-outer-table .td3 {
+    width: 110px
+}
+
+.product-info-box .p-course-outline .outline-outer-table .td4 {
+    width: 220px
+}
+
+.product-info-box .p-course-outline .outline-inner-table {
+    width: 100%
+}
+
+.product-info-box .p-course-outline .outline-inner-table td {
+    border-top: 1px solid #dcdfe0;
+    padding: 15px 0
+}
+
+.product-info-box .p-course-outline .outline-inner-table tr:first-child td {
+    border-top: 0 none
+}
+
+.product-info-box .p-course-outline .outline-table-work {
+    text-align: left;
+    font-size: 14px;
+    color: #11BAB3;
+    padding: 0 10px
+}
+
+.product-info-path .pi-path-title {
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    color: #686868;
+    position: relative
+}
+
+.product-info-path .pi-path-title em {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 7px;
+    height: 17px;
+    background: #11BAB3;
+    margin-right: 18px;
+    vertical-align: middle
+}
